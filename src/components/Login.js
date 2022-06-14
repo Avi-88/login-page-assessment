@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import { Input , Button ,Checkbox , Alert } from 'antd';
 import axios from 'axios';
-import image from '/login-page-assessment/bg-discuss.png';
 
 function Login() {
 
@@ -70,7 +69,7 @@ function Login() {
             </div>
         </div>
         <div className='bg-slate-800 w-full h-full lg:col-span-4 md:col-span-3 hidden  md:flex justify-center items-center'>
-            <img src={image} className='object-cover' alt='bg' />
+            <img src="https://ik.imagekit.io/cryolite69420/bg-discuss_mYAmjKCVS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655220053489" className='object-cover' alt='bg' />
         </div>
     </div>
   )
