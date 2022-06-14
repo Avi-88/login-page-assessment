@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Input , Button ,Checkbox , Alert } from 'antd';
 import axios from 'axios';
-import image from '/bg-discuss.png';
+import image from '/login-page-assessment/bg-discuss.png';
 
 function Login() {
 
