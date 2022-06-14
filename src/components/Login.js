@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Input , Button ,Checkbox , Alert } from 'antd';
 import axios from 'axios';
+import image from '/bg-discuss.png';
 
 function Login() {
 
@@ -69,7 +70,7 @@ function Login() {
             </div>
         </div>
         <div className='bg-slate-800 w-full h-full lg:col-span-4 md:col-span-3 hidden  md:flex justify-center items-center'>
-            <img src='/login-page-assessment/bg-discuss.png' className='object-cover' alt='bg' />
+            <img src={image} className='object-cover' alt='bg' />
         </div>
     </div>
   )
